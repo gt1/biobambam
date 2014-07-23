@@ -1,3 +1,9 @@
+biobambam (0.0.160) unstable; urgency=low
+
+  * add two output file option for duplicate removal 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Wed, 23 Jul 2014 10:03:50 +0100
+
 biobambam (0.0.159) unstable; urgency=low
 
   * add nucltag option in bammarkduplicates and bammarkduplicates2 
