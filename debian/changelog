@@ -1,3 +1,10 @@
+biobambam (0.0.161) unstable; urgency=low
+
+  * add bamstreamingmarkduplicates program (one pass duplicate marking based on
+    additional aux fields inserted by a previous run of bamsort)  
+
+ -- German Tischler <gt1@sanger.ac.uk>  Tue, 05 Aug 2014 14:40:47 +0100
+
 biobambam (0.0.160) unstable; urgency=low
 
   * add two output file option for duplicate removal 
