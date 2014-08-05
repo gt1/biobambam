@@ -22,7 +22,8 @@ MANPAGES = programs/bamtofastq.1 programs/bamsort.1 programs/bammarkduplicates.1
 	programs/bamfilterheader2.1 \
 	programs/bammdnm.1 \
 	programs/bamseqchksum.1 programs/bamvalidate.1 \
-	programs/bamflagsplit.1 programs/bamintervalcomment.1
+	programs/bamflagsplit.1 programs/bamintervalcomment.1 \
+	programs/bamstreamingmarkduplicates.1
 
 man_MANS = ${MANPAGES}
 
@@ -64,6 +65,7 @@ bin_PROGRAMS = bamtofastq bammarkduplicates bamsort bamcollate bammaskflags bamr
 	bamflagsplit \
 	bamintervalcomment \
 	bamintervalcommenthist \
+	bamstreamingmarkduplicates \
 	@BAMALIGNMENTOFFSETSINSTEXP@ @BLASTXMLTOBAMINSTEXP@
 
 noinst_PROGRAMS = bamfilter bamfixmatecoordinates bamfixmatecoordinatesnamesorted bamcheckalignments bamtoname \
@@ -97,6 +99,11 @@ bammarkduplicates_SOURCES = programs/bammarkduplicates.cpp biobambam/Licensing.c
 bammarkduplicates_LDADD = ${LIBMAUSLIBS}
 bammarkduplicates_LDFLAGS = ${AM_CPPFLAGS} ${LIBMAUSCPPFLAGS} ${LIBMAUSLDFLAGS} ${AM_LDFLAGS}
 bammarkduplicates_CPPFLAGS = ${AM_CPPFLAGS} ${LIBMAUSCPPFLAGS}
+
+bamstreamingmarkduplicates_SOURCES = programs/bamstreamingmarkduplicates.cpp biobambam/Licensing.cpp
+bamstreamingmarkduplicates_LDADD = ${LIBMAUSLIBS}
+bamstreamingmarkduplicates_LDFLAGS = ${AM_CPPFLAGS} ${LIBMAUSCPPFLAGS} ${LIBMAUSLDFLAGS} ${AM_LDFLAGS}
+bamstreamingmarkduplicates_CPPFLAGS = ${AM_CPPFLAGS} ${LIBMAUSCPPFLAGS}
 
 bammarkduplicates2_SOURCES = programs/bammarkduplicates2.cpp biobambam/Licensing.cpp
 bammarkduplicates2_LDADD = ${LIBMAUSLIBS}

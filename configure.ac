@@ -1,4 +1,4 @@
-AC_INIT(biobambam,0.0.160,[gt1@sanger.ac.uk],[biobambam],[http://www.sanger.ac.uk])
+AC_INIT(biobambam,0.0.161,[gt1@sanger.ac.uk],[biobambam],[http://www.sanger.ac.uk])
 AC_CANONICAL_SYSTEM
 AC_PROG_LIBTOOL
 
@@ -38,7 +38,7 @@ if test "${install_experimental}" = "yes" ; then
 	BAMALIGNMENTOFFSETSINSTEXP=bamalignmentoffsets
 else
 	BAMPARSORTNOINSTEXP=bamparsort
-	BAMALIGNMENTOFFSETSNOINSTEXP=bamalignmentoffsets	
+	BAMALIGNMENTOFFSETSNOINSTEXP=bamalignmentoffsets
 fi
 
 
@@ -148,7 +148,7 @@ if test ! -z "${with_libmaus}" ; then
 	fi
 fi
 
-PKG_CHECK_MODULES([libmaus],[libmaus >= 0.0.152])
+PKG_CHECK_MODULES([libmaus],[libmaus >= 0.0.153])
 
 if test ! -z "${with_libmaus}" ; then
 	if test ! -z "${PKGCONFIGPATHSAVE}" ; then
