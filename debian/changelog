@@ -1,3 +1,9 @@
+biobambam (0.0.162) unstable; urgency=low
+
+  * change bammarkduplicates and bammarkduplicates2 behaviour for secondary and supplementary alignments
+ 
+ -- German Tischler <gt1@sanger.ac.uk>  Wed, 06 Aug 2014 07:05:11 +0100
+
 biobambam (0.0.161) unstable; urgency=low
 
   * add bamstreamingmarkduplicates program (one pass duplicate marking based on
