@@ -1,3 +1,9 @@
+biobambam (0.0.163) unstable; urgency=low
+
+  * fix assertion failure in bammarkduplicates and bammarkduplicates2 in the presence of secondary or supplementary alignments
+ 
+ -- German Tischler <gt1@sanger.ac.uk>  Wed, 06 Aug 2014 10:48:16 +0100
+
 biobambam (0.0.162) unstable; urgency=low
 
   * change bammarkduplicates and bammarkduplicates2 behaviour for secondary and supplementary alignments
