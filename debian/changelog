@@ -1,3 +1,9 @@
+biobambam (0.0.165) unstable; urgency=low
+
+  * update libmaus dependency 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Sat, 09 Aug 2014 16:18:21 +0100
+
 biobambam (0.0.164) unstable; urgency=low
 
   * fixes in bamintervalcomment and bamintervalcommenthist 
