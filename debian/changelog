@@ -1,3 +1,9 @@
+biobambam (0.0.164) unstable; urgency=low
+
+  * fixes in bamintervalcomment and bamintervalcommenthist 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Sat, 09 Aug 2014 15:56:32 +0100
+
 biobambam (0.0.163) unstable; urgency=low
 
   * fix assertion failure in bammarkduplicates and bammarkduplicates2 in the presence of secondary or supplementary alignments
