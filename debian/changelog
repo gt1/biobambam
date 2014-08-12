@@ -1,3 +1,10 @@
+biobambam (0.0.166) unstable; urgency=low
+
+  * add tag and nucltag options for streaming duplicate marking
+  * ignore QC fail reads in bammarkduplicates2
+
+ -- German Tischler <gt1@sanger.ac.uk>  Tue, 12 Aug 2014 21:45:58 +0100
+
 biobambam (0.0.165) unstable; urgency=low
 
   * update libmaus dependency 
