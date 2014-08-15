@@ -1,3 +1,9 @@
+biobambam (0.0.167) unstable; urgency=low
+
+  * add inline duplicate marking in bamsort
+
+ -- German Tischler <gt1@sanger.ac.uk>  Fri, 15 Aug 2014 14:48:06 +0100
+
 biobambam (0.0.166) unstable; urgency=low
 
   * add tag and nucltag options for streaming duplicate marking
