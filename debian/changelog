@@ -1,3 +1,9 @@
+biobambam (0.0.172) unstable; urgency=low
+
+  * add basequalhist option for bamvalidate 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Mon, 13 Oct 2014 09:27:57 +0100
+
 biobambam (0.0.171) unstable; urgency=low
 
   * fix line number multiplier in bamtofastq 
