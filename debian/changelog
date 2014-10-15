@@ -1,3 +1,9 @@
+biobambam (0.0.173) unstable; urgency=low
+
+  * adding output parameters for bamdownsamplerandom 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Wed, 15 Oct 2014 14:40:21 +0100
+
 biobambam (0.0.172) unstable; urgency=low
 
   * add basequalhist option for bamvalidate 
