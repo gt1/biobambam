@@ -1,3 +1,9 @@
+biobambam (0.0.174) unstable; urgency=low
+
+  * fix output flushing in streaming duplicate marking 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Fri, 24 Oct 2014 07:35:23 +0100
+
 biobambam (0.0.173) unstable; urgency=low
 
   * adding output parameters for bamdownsamplerandom 
