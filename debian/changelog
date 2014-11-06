@@ -1,3 +1,9 @@
+biobambam (0.0.175) unstable; urgency=low
+
+  * add alternative hash digest options for bamseqchksum 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Thu, 06 Nov 2014 22:38:13 +0000
+
 biobambam (0.0.174) unstable; urgency=low
 
   * fix output flushing in streaming duplicate marking 
