@@ -1,3 +1,9 @@
+biobambam (0.0.176) unstable; urgency=low
+
+  * fix per read group checksums in bamseqchksum 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Tue, 11 Nov 2014 10:10:19 +0000
+
 biobambam (0.0.175) unstable; urgency=low
 
   * add alternative hash digest options for bamseqchksum 
