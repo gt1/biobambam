@@ -1,3 +1,9 @@
+biobambam (0.0.177) unstable; urgency=low
+
+  * add prime number field computation for longer hash functions in bamseqchksum
+
+ -- German Tischler <gt1@sanger.ac.uk>  Wed, 12 Nov 2014 15:24:21 +0000
+
 biobambam (0.0.176) unstable; urgency=low
 
   * fix per read group checksums in bamseqchksum 
