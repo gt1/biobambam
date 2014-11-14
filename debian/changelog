@@ -1,3 +1,9 @@
+biobambam (0.0.180) unstable; urgency=low
+
+  * add sha512primesums512 hash in bamseqchksum
+
+ -- German Tischler <gt1@sanger.ac.uk>  Fri, 14 Nov 2014 16:41:16 +0000
+
 biobambam (0.0.179) unstable; urgency=low
 
   * add missing call for digest type sha224prime256 in bamseqchksum 
