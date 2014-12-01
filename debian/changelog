@@ -1,3 +1,9 @@
+biobambam (0.0.182) unstable; urgency=low
+
+  * update dependencies in debian packaging files 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Mon, 01 Dec 2014 10:01:47 +0000
+
 biobambam (0.0.181) unstable; urgency=low
 
   * reflect refactoring in libmaus 
