@@ -1,3 +1,9 @@
+biobambam (0.0.183) unstable; urgency=low
+
+  * add bamfilternames to list of installed programs 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Mon, 08 Dec 2014 16:48:39 +0000
+
 biobambam (0.0.182) unstable; urgency=low
 
   * update dependencies in debian packaging files 
