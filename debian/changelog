@@ -1,3 +1,9 @@
+biobambam (0.0.184) unstable; urgency=low
+
+  * add read group id rewriting in bamcollate2 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Thu, 15 Jan 2015 09:02:35 +0000
+
 biobambam (0.0.183) unstable; urgency=low
 
   * add bamfilternames to list of installed programs 
