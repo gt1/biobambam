@@ -1,3 +1,9 @@
+biobambam (0.0.185) unstable; urgency=low
+
+  * use fixed order of attributes when rewriting BAM header lines in bamcollate2
+
+ -- German Tischler <gt1@sanger.ac.uk>  Fri, 16 Jan 2015 09:37:27 +0000
+
 biobambam (0.0.184) unstable; urgency=low
 
   * add read group id rewriting in bamcollate2 
