@@ -1,3 +1,9 @@
+biobambam (0.0.186) unstable; urgency=low
+
+  * add url based input (ftp, http, irods) in bamtofastq and bamcollate2
+
+ -- German Tischler <gt1@sanger.ac.uk>  Thu, 22 Jan 2015 09:08:58 +0000
+
 biobambam (0.0.185) unstable; urgency=low
 
   * use fixed order of attributes when rewriting BAM header lines in bamcollate2
