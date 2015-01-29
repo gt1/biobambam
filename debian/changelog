@@ -1,3 +1,9 @@
+biobambam (0.0.187) unstable; urgency=low
+
+  * allow use of resetheadertext independent of reset option in bamcollate2 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Thu, 29 Jan 2015 23:09:29 +0000
+
 biobambam (0.0.186) unstable; urgency=low
 
   * add url based input (ftp, http, irods) in bamtofastq and bamcollate2
