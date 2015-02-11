@@ -1,3 +1,10 @@
+biobambam (0.0.188) unstable; urgency=low
+
+  * add IF parameter in documentation of bammerge
+  * use alignment decoder factory for bammerge 
+
+ -- German Tischler <gt1@sanger.ac.uk>  Wed, 11 Feb 2015 07:17:35 +0000
+
 biobambam (0.0.187) unstable; urgency=low
 
   * allow use of resetheadertext independent of reset option in bamcollate2 
