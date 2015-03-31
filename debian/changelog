@@ -1,3 +1,9 @@
+biobambam (0.0.191) unstable; urgency=low
+
+  * changes to find and handle adapters in reverse complemented reads (merged from Andrew Whitwham)
+
+ -- German Tischler <gt1@sanger.ac.uk>  Tue, 31 Mar 2015 16:10:13 +0100
+
 biobambam (0.0.190) unstable; urgency=low
 
   * (re)set duplicate flag instead of just adding it
